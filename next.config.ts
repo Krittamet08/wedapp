@@ -13,9 +13,13 @@ const nextConfig: NextConfig = {
         hostname: 'img.advice.co.th',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        pathname: '/**',
+      },
     ],
   },
 };
 
 export default nextConfig;
-

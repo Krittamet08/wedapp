@@ -23,7 +23,7 @@ const InstrumentItem = ({
     <li className="my-2 flex justify-between items-center border-b py-2">
       <div>
         <p><strong>{index + 1}. {instrument.name}</strong> - ${instrument.price}</p>
-        <p>Likes: {instrument.like} {instrument.is_new && <span className="text-green-500 ml-2">New!</span>}</p>
+        <p>Likes: {instrument.like} {instrument.is_new && <span className="text-blue-500 ml-2">New!</span>}</p>
       </div>
       <button
         onClick={() => onDelete(instrument.id)}
